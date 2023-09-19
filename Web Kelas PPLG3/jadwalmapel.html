@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- icon  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <title>Jadwal Pelajaran</title>
+  <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">X PPLG 3</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"><i class=""></i> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#about"><i class=""></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#contact-person"><i class=""></i>Struktur Kelas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./DaftarSiswa.html"><i class=""></i> Daftar Siswa</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NavBar End -->
+
+  <!-- Jadwal -->
+  <div class="container jadwal">
+    <div class="row text-center text-white mt-5">
+      <div class="col">
+        <h2>Jadwal Pelajaran <span>X PPLG 3</span></h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Senin
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-4">
+                    <p> 07.00 - 08.00 : Upacara Bendera </p>
+                    <p> 08.00 - 08.40 : Matematika </p>
+                    <p> 08.40 - 09.20 : Matematika </p>
+                    <p> 09.20 - 10.00 : Matematika </p>
+                    <p class="break"> 10.00 - 10.15 : ISTIRAHAT </p>
+                    <p> 10.15 - 10.55 : Matematika </p>
+                    <p> 10.55 - 11.35 : B.Inggris </p>
+                    <p> 11.35 - 12.15 : B.Inggris </p>
+                    <p class="break"> 12.15 - 13.00 : ISTIRAHAT </p>
+                    <p> 13.00 - 13.40 : Seni Budaya </p>
+                    <p> 13.40 - 14.20 : Seni Budaya </p>
+                    <p> 14.20 - 15.00 : Pro PPLG </p>
+                    <p> 15.00 - 15.40 : Pro PPLG </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Selasa
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-4">
+                    <p> 07.15 - 07.55 : B.Indonesia </p>
+                    <p> 07.55 - 08.35 : B.Indonesia </p>
+                    <p> 08.35 - 09.15 : Pro PPLG </p>
+                    <p> 09.15 - 09.55 : Pro PPLG </p>
+                    <p class="break"> 09.55 - 10.10 : ISTIRAHAT </p>
+                    <p> 10.20 - 10.50 : B.Inggris </p>
+                    <p> 11.50 - 11.30 : B.Inggris </p>
+                    <p> 11.30 - 12.10 : Sejarah </p>
+                    <p class="break"> 12.10 - 13.00 : ISTIRAHAT </p>
+                    <p> 12.50 - 13.40 : Sejarah </p>
+                    <p> 13.40 - 14.20 : B.Sunda </p>
+                    <p> 14.20 - 15.00 : B.Sunda </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Rabu
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-4">
+                    <p> 07.15 - 07.55 : B.Indonesia </p>
+                    <p> 07.55 - 08.35 : B.Indonesia </p>
+                    <p> 08.35 - 09.15 : Pro PPLG </p>
+                    <p> 09.15 - 09.55 : Pro PPLG </p>
+                    <p class="break"> 10.00 - 10.20 : ISTIRAHAT </p>
+                    <p> 10.10 - 10.50 : PJOK </p>
+                    <p> 11.50 - 11.30 : PJOK </p>
+                    <p> 11.30 - 12.10 : PJOK </p>
+                    <p class="break"> 12.10 - 13.00 : ISTIRAHAT </p>
+                    <p> 13.00 - 13.40 : PAI </p>
+                    <p> 13.40 - 14.20 : PAI </p>
+                    <p> 14.20 - 15.00 : PAI </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Kamis
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-4">
+                    <p> 07.15 - 07.55 : Pro PPLG </p>
+                    <p> 07.55 - 08.35 : Pro PPLG </p>
+                    <p> 08.35 - 09.15 : Pro PPLG </p>
+                    <p> 09.15 - 09.55 : Pro PPLG </p>
+                    <p class="break"> 09.55 - 10.10 : ISTIRAHAT </p>
+                    <p> 10.10 - 10.50 : INFORMATIKA </p>
+                    <p> 10.50 - 11.30 : INFORMATIKA </p>
+                    <p> 11.30 - 12.10 : PPKN </p>
+                    <p class="break"> 12.10 - 13.00 : ISTIRAHAT </p>
+                    <p> 13.00 - 13.40 : PPKN </p>
+                    <p> 13.40 - 14.20 : INFORMATIKA </p>
+                    <p> 14.20 - 15.00 : INFORMATIKA </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Jumat
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="col-md-5">
+                    <p> 07.00 - 08.00 : Jumtaq/Bersih-Bersih </p>
+                    <p> 08.00 - 08.40 : IPAS </p>
+                    <p> 08.40 - 09.20 : IPAS </p>
+                    <p> 09.20 - 10.00 : IPAS </p>
+                    <p class="break"> 10.00 - 10.15 : ISTIRAHAT </p>
+                    <p> 10.15 - 10.55 : IPAS </p>
+                    <p> 10.55 - 11.35 : Pro PPLG </p>
+                    <p class="break"> 11.35 - 13.00 : JUMATAN - ISTIRAHAT</p>
+                    <p> 13.00 - 13.40 : Pro PPLG </p>
+                    <p> 13.40 - 14.20 : Pro PPLG </p>
+                    <p> 14.20 - 15.00 : Pro PPLG </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <!-- Jadwal End -->
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
